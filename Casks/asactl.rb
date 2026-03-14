@@ -3,7 +3,7 @@ cask "asactl" do
   name "asactl"
   desc "CLI for managing Apple Search Ads from YAML desired-state files"
   homepage "https://github.com/robaerd/asactl"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,11 +14,11 @@ cask "asactl" do
   on_macos do
     on_intel do
       url "https://github.com/robaerd/asactl/releases/download/v#{version}/asactl_#{version}_darwin_amd64.tar.gz"
-      sha256 "86fc555ba13f0ee6b064f2a4e470962ef3e4d8c0163ccd8bd030d2756af7d295"
+      sha256 "b1503116eba789c43af502baa04adb1781c7960dae9225f9e9b114d5444d0d3a"
     end
     on_arm do
       url "https://github.com/robaerd/asactl/releases/download/v#{version}/asactl_#{version}_darwin_arm64.tar.gz"
-      sha256 "da4b75065aaff054868b1ce96ba83511ca5351f30ce91c07332e4169ef61cebd"
+      sha256 "fce8bc1c8541f01784fae3e70f84d2899087818b1964eab7b187c346e8668497"
     end
   end
 
